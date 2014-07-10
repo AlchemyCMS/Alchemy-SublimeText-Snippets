@@ -1,0 +1,11 @@
+<snippet>
+  <content><![CDATA[
+<%= element_editor_for(element) do |el| %>
+  <%= el.edit :${1:content_name} %>
+<% end %>
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>eled</tabTrigger>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <scope>text.html.ruby</scope>
+</snippet>

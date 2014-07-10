@@ -1,0 +1,13 @@
+<snippet>
+  <content><![CDATA[
+<% cache(element) do %>
+  <%= element_view_for(element) do |el| %>
+    <%= el.render :${1:content_name} %>
+  <% end %>
+<% end %>
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>elv</tabTrigger>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <scope>text.html.ruby</scope>
+</snippet>
